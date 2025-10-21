@@ -7,7 +7,6 @@ Incluye un esquema mínimo con profesores y departamentos y un script dml.sql pa
 
 ## Probar las siguientes consultas SQL
 
---- 1) Proyección total: ver todas las columnas
 - SELECT * FROM profesores;
 - SELECT * FROM profesores WHERE sueldo > 2200;
 - SELECT nombre, sueldo FROM profesores WHERE sueldo > 2100;
