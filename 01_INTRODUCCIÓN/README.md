@@ -25,6 +25,22 @@ Incluye un esquema mínimo con profesores y departamentos y un script dml.sql pa
 - SELECT * FROM profesores ORDER BY sueldo ASC;
 - SELECT nombre, sueldo FROM profesores ORDER BY sueldo DESC, nombre;
 
+## Consultas SQL de funciones agregadas
+
+- SELECT COUNT(*) FROM profesores;
+- SELECT SUM(sueldo) FROM profesores;
+- SELECT AVG(sueldo) FROM profesores;
+- SELECT MIN(sueldo) FROM profesores;
+- SELECT MAX(sueldo) FROM profesores;
+
+## Consultas SQL de Reunión
+
+- SELECT cedula, profesores.nombre, sueldo, departamentos.nombre FROM profesores, departamentos WHERE codigo=codigoDpto;
+- SELECT cedula, profesores.nombre AS nombre_prof, sueldo, departamentos.nombre AS nombre_dpto FROM profesores, departamentos WHERE codigo=codigoDpto;
+- SELECT cedula, p.nombre AS nombre_prof, sueldo, d.nombre AS nombre_dpto FROM profesores AS p, departamentos AS d WHERE d.codigo=p.codigoDpto AND d.nombre='Lógica';
+- SELECT * FROM profesores JOIN departamentos ON profesores.codigoDpto = departamentos.codigo;
+
+
 
 
 
