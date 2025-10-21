@@ -7,23 +7,23 @@ Incluye un esquema mínimo con profesores y departamentos y un script dml.sql pa
 
 ## Probar las siguientes consultas SQL
 
-- SELECT * FROM profesor;
-- SELECT * FROM profesor WHERE sueldo > 2200;
-- SELECT nombre, sueldo FROM profesor WHERE sueldo > 2100;
-- SELECT nombre, sueldo FROM profesor WHERE sueldo > 2200 AND sueldo < 2900;
-- SELECT nombre, sueldo FROM profesor WHERE sueldo BETWEEN 2200 AND 2900;
-- SELECT nombre, sueldo, sueldo*1.1, (sueldo*1.1-sueldo) FROM profesor WHERE sueldo > 2200 AND sueldo < 2900;
-- SELECT nombre, sueldo, sueldo*1.1, (sueldo*1.1–sueldo) FROM profesor WHERE (sueldo * 1.1 - sueldo) < 250;
-- SELECT * FROM profesor WHERE nombre='Pedro';
-- SELECT * FROM profesor WHERE nombre LIKE '%es%';
-- SELECT * FROM profesor WHERE nombre LIKE '%es';
-- SELECT * FROM profesor WHERE nombre LIKE '%___as';
-- SELECT * FROM profesor WHERE nombre LIKE '%ue_%';
-- SELECT * FROM profesor ORDER BY nombre;
-- SELECT * FROM profesor ORDER BY sueldo;
-- SELECT * FROM profesor ORDER BY sueldo DESC;
-- SELECT * FROM profesor ORDER BY sueldo ASC;
-- SELECT nombre, sueldo FROM profesor ORDER BY sueldo DESC, nombre;
+- SELECT * FROM profesores;
+- SELECT * FROM profesores WHERE sueldo > 2200;
+- SELECT nombre, sueldo FROM profesores WHERE sueldo > 2100;
+- SELECT nombre, sueldo FROM profesores WHERE sueldo > 2200 AND sueldo < 2900;
+- SELECT nombre, sueldo FROM profesores WHERE sueldo BETWEEN 2200 AND 2900;
+- SELECT nombre, sueldo, sueldo*1.1, (sueldo*1.1-sueldo) FROM profesores WHERE sueldo > 2200 AND sueldo < 2900;
+- SELECT nombre, sueldo, sueldo*1.1, (sueldo*1.1–sueldo) FROM profesores WHERE (sueldo * 1.1 - sueldo) < 250;
+- SELECT * FROM profesores WHERE nombre='Pedro';
+- SELECT * FROM profesores WHERE nombre LIKE '%es%';
+- SELECT * FROM profesores WHERE nombre LIKE '%es';
+- SELECT * FROM profesores WHERE nombre LIKE '%___as';
+- SELECT * FROM profesores WHERE nombre LIKE '%ue_%';
+- SELECT * FROM profesores ORDER BY nombre;
+- SELECT * FROM profesores ORDER BY sueldo;
+- SELECT * FROM profesores ORDER BY sueldo DESC;
+- SELECT * FROM profesores ORDER BY sueldo ASC;
+- SELECT nombre, sueldo FROM profesores ORDER BY sueldo DESC, nombre;
 
 
 
