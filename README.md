@@ -1,9 +1,6 @@
-# SQL
-Aprender SQL es aprender a conversar con los datos
+# Bienvenid@s al repositorio de SQL para Estudiantes
 
-Bienvenid@s al repositorio de SQL para Estudiantes
-
-Aprender SQL es aprender a conversar con los datos: preguntar, filtrar, combinar y transformar información para tomar decisiones. Aquí encontrarás scripts y ejercicios pensados para que practiques desde lo básico hasta temas intermedios en un entorno real con PostgreSQL.
+Aprender SQL es aprender a conversar con los datos: preguntar, filtrar, combinar y transformar datos para producir información y tomar decisiones. Aquí encontrarás scripts y ejercicios pensados para que practiques desde lo básico hasta temas intermedios en un entorno real con PostgreSQL.
 
 Objetivo: que domines las operaciones fundamentales (DDL y DML), escribas consultas claras y correctas, y desarrolles criterio técnico para modelar datos y revisar resultados.
 
