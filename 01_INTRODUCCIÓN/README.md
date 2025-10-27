@@ -12,8 +12,8 @@ Incluye un esquema mínimo con profesores y departamentos y un script dml.sql pa
 - SELECT nombre, sueldo FROM profesores WHERE sueldo > 2100;
 - SELECT nombre, sueldo FROM profesores WHERE sueldo > 2200 AND sueldo < 2900;
 - SELECT nombre, sueldo FROM profesores WHERE sueldo BETWEEN 2200 AND 2900;
-- SELECT nombre, sueldo, sueldo*1.1, (sueldo*1.1-sueldo) FROM profesores WHERE sueldo > 2200 AND sueldo < 2900;
-- SELECT nombre, sueldo, sueldo*1.1, (sueldo*1.1–sueldo) FROM profesores WHERE (sueldo * 1.1 - sueldo) < 250;
+- SELECT nombre, sueldo, sueldo*1.1 FROM profesores WHERE sueldo > 2200 AND sueldo < 2900;
+- SELECT nombre, sueldo, sueldo*1.1  FROM profesores WHERE (sueldo * 1.1 - sueldo) < 250;
 - SELECT * FROM profesores WHERE nombre='Pedro';
 - SELECT * FROM profesores WHERE nombre LIKE '%is%';
 - SELECT * FROM profesores WHERE nombre LIKE '%is';
